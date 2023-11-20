@@ -1,16 +1,16 @@
-# multi_select_dialog
+# 🏵 Multi Select Bottom Sheet
 
-A new Flutter project.
+Simple UI Screen 👍
 
-## Getting Started
+## 🚀 Getting Started
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 UI
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+https://github.com/Shalaby-VBS/Multi_Select_BottomSheet/assets/149938388/8a5b2612-c782-4333-832f-c89bba2d7ebe
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Dependencies
+
+1️⃣ sliding_sheet: ^0.5.2
+
