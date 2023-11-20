@@ -20,29 +20,16 @@ class _HomeScreenState extends State<HomeScreen> {
       'Item 3',
       'Item 4',
       'Item 5',
-      'Item 1',
-      'Item 2',
-      'Item 3',
-      'Item 4',
-      'Item 5',
-      'Item 1',
-      'Item 2',
-      'Item 3',
-      'Item 4',
-      'Item 5',
-      'Item 1',
-      'Item 2',
-      'Item 3',
-      'Item 4',
-      'Item 5',
-      'Item 1',
-      'Item 2',
-      'Item 3',
-      'Item 4',
-      'Item 5',
-
+      'Item 6',
+      'Item 7',
+      'Item 8',
+      'Item 9',
+      'Item 10',
+      'Item 11',
+      'Item 12',
+      'Item 13',
+      'Item 14',
     ];
-
     final List<String>? results = await showSlidingBottomSheet(
       context,
       builder: (_) {
@@ -62,7 +49,6 @@ class _HomeScreenState extends State<HomeScreen> {
         );
       },
     );
-
     if (results != null) {
       setState(() {
         selectedItems = results;
@@ -89,7 +75,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   onPressed: () {
                     showMultiSelect();
                   },
-                  child: Text('Select your favorite Topics')),
+                  child: const Text('Select your favorite Topics')),
             ),
             Wrap(
               children: selectedItems.map((item) {
